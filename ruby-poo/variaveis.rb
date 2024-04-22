@@ -9,6 +9,7 @@ puts v3 = v1 + v2
 puts v3.class
 
 #atribuindo uma variavel para que o usuario digite utilizando "gets"
+puts "digite seu nome: "
 nome = gets
 #aqui usei .chomp para remover uma quebra de linha que aparece quando o usuario digita no gets
 puts "o seu nome é " + nome.chomp
