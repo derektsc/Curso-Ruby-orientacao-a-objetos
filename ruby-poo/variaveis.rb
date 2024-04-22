@@ -19,7 +19,5 @@ idade = gets.chomp
 puts "sua idade é: " + idade
 
 =begin
-voce pode comentar linha a linha utilizando # ou voce pode utilizar "=begin" para iniciar uma linha de comentario e no final "=end".
-puts "legal"
-puts "daora"
+voce pode comentar linha a linha utilizando # ou voce pode utilizar "=begin" para iniciar uma linha de comentario e no final:
 =end
