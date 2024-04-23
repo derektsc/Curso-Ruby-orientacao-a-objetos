@@ -1,6 +1,6 @@
 #Os operadores de intervalo podem ser: .. or ...
 
-#abra o irb 
+#abra o irb (no terminal digite irb) 
  a = [1,2,40,4,5]
  a.each { |x| puts x}
 

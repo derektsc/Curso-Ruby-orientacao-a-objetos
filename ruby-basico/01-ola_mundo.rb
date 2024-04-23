@@ -15,3 +15,5 @@ puts '3' + "1"
 puts true.class
 puts false.class
 
+#PARA ABRIR O IRB BASTA IR NO TERMINAL E DIGITAR irb
+
