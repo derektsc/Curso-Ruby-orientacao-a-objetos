@@ -42,4 +42,3 @@ case numero_escolhido
 end
     
 
-
