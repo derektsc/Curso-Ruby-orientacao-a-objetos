@@ -9,20 +9,20 @@ class Cachorro
     attr_reader :raca
     attr_accessor :latido
 
-    def initialize(nome, raca, latido)
+    def initialize(nome, raca, latido = "au au!")
         @nome = nome
         @raca = raca
-        @latido = "au au!"
+        @latido = latido
     end
 end
 
-cachorro1 = Cachorro.new("amora", "vira lata","")
+cachorro1 = Cachorro.new("amora", "vira lata")
 cachorro1.latido = "GRR"
 puts cachorro1.nome
 puts cachorro1.raca
 puts cachorro1.latido
 
-cachorro2 = Cachorro.new("Meg", "Border Collie", "")
+cachorro2 = Cachorro.new("Meg", "Border Collie")
 puts cachorro2.nome
 puts cachorro2.raca
 puts cachorro2.latido
