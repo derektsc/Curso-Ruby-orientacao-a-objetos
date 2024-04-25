@@ -19,7 +19,7 @@ papagaio1 = Papagaio.new("jorge", 3, "ola mundo eu sou o jorge")
 puts papagaio1.nome
 puts papagaio1.idade
 puts papagaio1.frase
-    
+ 
 papagaio2 = Papagaio.new("nilson", 1)
 puts papagaio2.nome
 puts papagaio2.idade
