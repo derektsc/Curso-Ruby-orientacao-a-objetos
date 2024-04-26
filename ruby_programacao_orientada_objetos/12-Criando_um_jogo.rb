@@ -5,8 +5,7 @@
 =end
 
 class AdivinharNumero
-    attr_reader :numero
-    attr_reader :venceu
+    attr_reader :numero, :venceu #aprendemos aqui que é possivel declarar mais de um simbolo no mesmo attr
 
     def initialize
         @numero = Random.rand(10)
@@ -18,9 +17,9 @@ class AdivinharNumero
             @venceu = true
             "Você venceu!!" #poderia colocar puts ou return antes mas também funciona sem nada 
         elsif numero > @numero
-            "O numero digitado é maior"
+            return "O numero digitado é maior"
         else
-            "O numero digitado é menor"
+            return "O numero digitado é menor"
         end
     end
 end
@@ -32,7 +31,7 @@ puts "Digite um número"
 numero = gets.to_i
 puts jogo.tentar_advinhar(numero)
 
-until jogo.venceu do
+until jogo.venceu
 puts "Digite outro número"
 numero = gets.to_i
 puts jogo.tentar_advinhar(numero)
