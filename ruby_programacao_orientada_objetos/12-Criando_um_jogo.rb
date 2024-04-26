@@ -5,7 +5,7 @@
 =end
 
 class AdivinharNumero
-    attr_reader :numero, :venceu #aprendemos aqui que é possivel declarar mais de um simbolo no mesmo attr
+    attr_reader :numero, :venceu #aprendemos aqui que é possivel declarar mais de um simbolo no mesmo attr teste
 
     def initialize
         @numero = Random.rand(10)
