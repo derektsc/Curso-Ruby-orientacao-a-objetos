@@ -13,7 +13,6 @@ end
 class Filha < Pai
 end
 
-#teste12
 dad = Pai.new
 dad.nome ="jackson"
 puts dad.nome
