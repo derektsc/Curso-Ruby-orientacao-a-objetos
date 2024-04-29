@@ -1,6 +1,3 @@
-
-
-
 class Franquia
     def descricao
         "Franquia"
