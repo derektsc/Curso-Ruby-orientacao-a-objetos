@@ -32,10 +32,10 @@ Um pouco sobre a historia de Alan Kay e POO
 3- Herança
 4- Polimorfismo
 
-Abstração: Imaginar o objeto que tenha: Identidade unica, Atributos, Métodos
-Encapsulamento: Esconder as propriedades dos objetos para obter mais segurança
-Herança: Permitir o reuso de código
-Polimorfismo: Capacidade de referenciar um objeto de varias formas diferentes
+Abstração(classes): Imaginar o objeto que tenha: Identidade unica, Atributos, Métodos
+Encapsulamento(attr): Esconder as propriedades dos objetos para obter mais segurança
+Herança(herdar uma classe): Permitir o reuso de código
+Polimorfismo(referenciar um objeto de varias formas diferentes): Capacidade de referenciar um objeto de varias formas diferentes
 
 
 =end
