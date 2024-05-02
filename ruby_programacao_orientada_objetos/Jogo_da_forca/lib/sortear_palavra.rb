@@ -11,7 +11,6 @@ class SortearPalavra
     end
 end
 
-palavra_sorteada = SortearPalavra.sortear
-tamanho_palavra = palavra_sorteada.size
+
 
 

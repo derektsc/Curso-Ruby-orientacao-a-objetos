@@ -1,4 +1,5 @@
 require_relative 'sortear_palavra.rb'
+require_relative 'adivinha_letra'
 
 class Palavra_Parcial
     def initialize(tamanho)
@@ -7,18 +8,18 @@ class Palavra_Parcial
             @palavra_escondida << " _ "
         end
     end
-    def to_s
+    def palavra_atual
         @palavra_escondida.join
     end
     def atualizar(letra, palavra_sorteada)
         palavra_sorteada.each_char.with_index do |char, index|
-            if char == letra
-                @palavra_escondida[index*2] = letra
+            if palavra_sorteada[index] == letra
+                @palavra_escondida[index] = letra 
             end
         end
     end
 
-    def completa?
+    def completa
         !@palavra_escondida.include?(" - ")
     end
 end
