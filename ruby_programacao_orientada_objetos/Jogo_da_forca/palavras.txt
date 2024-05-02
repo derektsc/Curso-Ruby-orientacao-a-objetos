@@ -1,5 +1,0 @@
-cachorro
-gato
-morcego
-porco
-vaca

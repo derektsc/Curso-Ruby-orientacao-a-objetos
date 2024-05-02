@@ -1,0 +1,15 @@
+cachorro
+gato
+morcego
+porco
+vaca
+cavalo
+zebra
+macaco
+urubu
+galinha
+galo
+baleia
+pato
+ganso
+peixe
